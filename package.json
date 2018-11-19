@@ -1,0 +1,19 @@
+{
+  "name": "todolistapp-react-redux",
+  "version": "1.0.0",
+  "description": "Todo List created with React-Redux",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/John-Michael-Long/TodoListApp-React-Redux.git"
+  },
+  "author": "JM Long",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/John-Michael-Long/TodoListApp-React-Redux/issues"
+  },
+  "homepage": "https://github.com/John-Michael-Long/TodoListApp-React-Redux#readme"
+}
