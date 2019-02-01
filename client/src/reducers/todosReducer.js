@@ -1,4 +1,4 @@
-import {combineReducers} from 'redux'
+import { combineReducers } from 'redux';
 import * as actionTypes from '../actions/actionTypes';
 
 const todos = (state = [], action) => {
@@ -9,16 +9,15 @@ const todos = (state = [], action) => {
         {
           text: action.text,
           id: action.id,
-          completed: false
-        }
-      ]
+          completed: false,
+        },
+      ];
 
     case actionTypes.TOGGLE_TODO:
-      return state.map( todo => 
+      return state.map(todo =>
         (todo.id === action.id)
           ? { ...todo, completed: !todo.completed }
-          : todo 
-      )
+          : todo)
     default:
       return state;
   }
@@ -47,7 +46,6 @@ export default todoApp;
 //     todos: todos(state.todos, action)
 //   }
 // }
-
 
 // const todoApp = (state = initialState, action) => {
 

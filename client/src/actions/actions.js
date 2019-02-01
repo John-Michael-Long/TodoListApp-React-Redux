@@ -8,13 +8,14 @@ export const addTodo = text => ({
   text  
 });
 
+export const setVisibilityFilter = filter => ({
+  type: actionTypes.SET_VISIBILITY_FILTER,
+  filter
+});
+
 export const toggleTodo = id => ({
   type: actionTypes.TOGGLE_TODO,
   id
 });
 
-export const setVisibilityFilter = filter => ({
-  type: actionTypes.SET_VISIBILITY_FILTER,
-  filter
-});
 
